@@ -1,0 +1,63 @@
+[debug] [2025-02-18T12:15:15.144Z] ----------------------------------------------------------------------
+[debug] [2025-02-18T12:15:15.148Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-18T12:15:15.149Z] CLI Version:   13.31.1
+[debug] [2025-02-18T12:15:15.149Z] Platform:      win32
+[debug] [2025-02-18T12:15:15.149Z] Node Version:  v22.14.0
+[debug] [2025-02-18T12:15:15.149Z] Time:          Tue Feb 18 2025 17:45:15 GMT+0530 (India Standard Time)
+[debug] [2025-02-18T12:15:15.149Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-18T12:15:15.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-18T12:15:15.497Z] > authorizing via signed-in user (shivambandgar222@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\shiva
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-18T12:15:24.710Z] Using project from CLI flag: pixel-world-3a76a
+[debug] [2025-02-18T12:15:24.713Z] Checked if tokens are valid: true, expires at: 1739883481503
+[debug] [2025-02-18T12:15:24.713Z] Checked if tokens are valid: true, expires at: 1739883481503
+[debug] [2025-02-18T12:15:24.717Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pixel-world-3a76a [none]
+[debug] [2025-02-18T12:15:25.350Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pixel-world-3a76a 200
+[debug] [2025-02-18T12:15:25.351Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pixel-world-3a76a {"projectId":"pixel-world-3a76a","projectNumber":"572993128168","displayName":"Pixel World","name":"projects/pixel-world-3a76a","resources":{"hostingSite":"pixel-world-3a76a"},"state":"ACTIVE","etag":"1_9f6f8ba4-4a15-4add-8325-51436f4ae52f"}
+[info] i  Using project pixel-world-3a76a (Pixel World) 
+[info] 
+=== Hosting Setup
+[debug] [2025-02-18T12:15:25.365Z] Checked if tokens are valid: true, expires at: 1739883481503
+[debug] [2025-02-18T12:15:25.365Z] Checked if tokens are valid: true, expires at: 1739883481503
+[debug] [2025-02-18T12:15:25.366Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/pixel-world-3a76a [none]
+[debug] [2025-02-18T12:15:25.746Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/pixel-world-3a76a 200
+[debug] [2025-02-18T12:15:25.746Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/pixel-world-3a76a {"projectId":"pixel-world-3a76a","projectNumber":"572993128168","displayName":"Pixel World","name":"projects/pixel-world-3a76a","resources":{"hostingSite":"pixel-world-3a76a"},"state":"ACTIVE","etag":"1_9f6f8ba4-4a15-4add-8325-51436f4ae52f"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-02-18T12:15:34.879Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-02-18T12:15:35.091Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-02-18T12:15:35.092Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.3.1","browserURL":"https://www.gstatic.com/firebasejs/11.3.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.3.1/firebase.tgz"},"live":{"version":"11.3","browserURL":"https://www.gstatic.com/firebasejs/live/11.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.3.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.3.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.3.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.3.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.3.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.3.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.3.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.3.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.3.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.3.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.3.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.3.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.3.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.3.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.3.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.memory.js"}}
+[info] +  Wrote p/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\shiva\Documents\Sem 2\CBD\web is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=882728638&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
